@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+}
+
+p {
+  margin: 0;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.banner {
+  background-image: url(/img/banner.png);
+  padding: 50px;
+}
+.banner .text-box p {
+  color: grey;
+}
+.banner .text-box h6 {
+  color: rgb(51, 51, 51);
+  font-size: 2em;
+  font-weight: 400;
+}
+
+button {
+  border-radius: 50px;
+}
+
+.how-it-works .key-image-pair img {
+  width: 25px;
+}
+
+.coloured-card {
+  border-radius: 10px;
+}
+
+.star-icon {
+  color: #ccc;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.star-icon.filled {
+  color: #F7A115;
+}
+
+.reviews-text {
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: underline;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+li {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+}
+
+.woocommerce ul.products li.product a img {
+  width: 65%;
+  height: auto;
+  margin: 22px auto;
+  display: block;
+  box-shadow: none;
+}
+.woocommerce .product {
+  position: relative;
+  border: thin solid #e3e3e3;
+  border-radius: 10px;
+  padding: 20px;
+}
+.woocommerce .product .woocommerce-loop-product__title {
+  font-size: 1.5em;
+  color: black;
+  margin: 10px 0 15px;
+}
+.woocommerce .product .onsale {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #00c4ff;
+  padding: 1px 15px;
+  border-radius: 50px;
+  color: white;
+}
+.woocommerce .product del {
+  color: grey;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.woocommerce .product ins {
+  color: rgb(87, 87, 87);
+  font-size: 1.4em;
+}
+.woocommerce .product .price {
+  display: flex;
+}
+.woocommerce .product .add_to_cart_button {
+  padding: 10px 20px;
+  background-color: #6063DE;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 20px;
+  display: inline-block;
+}/*# sourceMappingURL=style.css.map */
